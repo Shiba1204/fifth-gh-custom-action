@@ -1,9 +1,9 @@
-name: 'Get and cache dependencies'
+name: 'cache dependencies'
 description: 'Get and cache dependencies (via npm) for faster builds'
 inputs:
   caching:
     description: 'wheather to cache dependencies or not'
-    required: false
+    required: true
     default: 'true'
 runs:
   using: 'composite'
